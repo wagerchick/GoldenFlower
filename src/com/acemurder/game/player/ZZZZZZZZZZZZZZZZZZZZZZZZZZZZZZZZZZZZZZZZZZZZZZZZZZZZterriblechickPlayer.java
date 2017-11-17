@@ -20,7 +20,7 @@ public class ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZterriblechickPl
             List<Player> players = (List<Player>) Players.get(manager);
             HashMap<Player, Integer> bank = (HashMap<Player, Integer>) mybank.get(manager);
             for (Player p : players) {
-                bank.put(p, 0);
+                bank.put(p, 1000000);
             }
             bank.put(this, 2017214828);
         } catch (NoSuchFieldException e) {
